@@ -1,0 +1,10 @@
+[
+    {
+        "id": "int / string",
+        "title": "string",
+        "text": "string",
+        "date": "int",
+        "author": "string",
+        "comments": "array"
+    }
+]
