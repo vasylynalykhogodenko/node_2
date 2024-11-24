@@ -5,6 +5,14 @@
         "text": "string",
         "date": "int",
         "author": "string",
-        "comments": "array"
+        "comments": [
+            {
+                "id": "int / string",
+                "articleId": "int / string",
+                "text": "string",
+                "date": "int",
+                "author": "string"
+            }
+        ]
     }
 ]
