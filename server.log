@@ -1,0 +1,73 @@
+
+[2024-11-25T07:10:05.029Z]
+URL: /api/articles/readall
+Method: GET
+Payload: undefined
+---------------------------------------------
+
+[2024-11-25T07:16:08.577Z]
+URL: /api/articles/create
+Method: POST
+Payload: {
+  "title": "My New Article",
+  "text": "This is a new article text.",
+  "date": 1699999999,
+  "author": "Jane Doe"
+}
+---------------------------------------------
+
+[2024-11-25T07:18:31.413Z]
+URL: /api/articles/update
+Method: PATCH
+Payload: {
+  "id": "2",
+  "title": "This is updated article title"
+}
+---------------------------------------------
+
+[2024-11-25T07:23:42.854Z]
+URL: /api/articles/update
+Method: PATCH
+Payload: {
+  "id": "36933c5a-7ace-4391-9eb3-958d1d1bf862",
+  "title": "My updated new article"
+}
+---------------------------------------------
+
+[2024-11-25T07:25:26.742Z]
+URL: /api/articles/delete
+Method: DELETE
+Payload: {
+  "id": "36933c5a-7ace-4391-9eb3-958d1d1bf862"
+}
+---------------------------------------------
+
+[2024-11-25T07:30:59.298Z]
+URL: /api/articles/create
+Method: POST
+Payload: {
+  "title": "My New Article 1",
+  "text": "This is a new article 1 text.",
+  "date": 1699999990,
+  "author": "John Doe"
+}
+---------------------------------------------
+
+[2024-11-25T07:34:16.075Z]
+URL: /api/comments/create
+Method: POST
+Payload: {
+  "articleId": "88b06852-f8f6-4541-bd10-a8ae1f77eae6",
+  "text": "This is a comment to my new article 1",
+  "date": "1732519859299",
+  "author": "John Doe"
+}
+---------------------------------------------
+
+[2024-11-25T07:36:11.268Z]
+URL: /api/comments/delete
+Method: DELETE
+Payload: {
+  "id": "ab0184b0-2981-43e6-adbf-2b830f0eb690"
+}
+---------------------------------------------

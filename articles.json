@@ -1,18 +1,26 @@
 [
-    {
+  {
+    "id": "int / string",
+    "title": "string",
+    "text": "string",
+    "date": "int",
+    "author": "string",
+    "comments": [
+      {
         "id": "int / string",
-        "title": "string",
+        "articleId": "int / string",
         "text": "string",
         "date": "int",
-        "author": "string",
-        "comments": [
-            {
-                "id": "int / string",
-                "articleId": "int / string",
-                "text": "string",
-                "date": "int",
-                "author": "string"
-            }
-        ]
-    }
+        "author": "string"
+      }
+    ]
+  },
+  {
+    "id": "88b06852-f8f6-4541-bd10-a8ae1f77eae6",
+    "title": "My New Article 1",
+    "text": "This is a new article 1 text.",
+    "date": 1732519859299,
+    "author": "John Doe",
+    "comments": []
+  }
 ]
